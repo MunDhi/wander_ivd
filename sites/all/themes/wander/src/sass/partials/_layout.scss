@@ -14,6 +14,8 @@
 html {
   // REMOVE WHEN WEBSITE IS COMPLETE //
   //margin-top: 50px;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 *,
@@ -66,12 +68,6 @@ section {
   background: $wanderWhite;
 }
 
-#middle-top-section {
-  width: 100%;
-  height: auto;
-  background: $wanderWhite;
-}
-
 .carousel-section {
   padding: 0;
   height: 200px;
@@ -84,10 +80,9 @@ section {
   padding: 0;
   overflow: hidden;
   z-index: -100;
-  border-bottom: 5px solid $mustard;
 
   video {
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -95,9 +90,17 @@ section {
     width: auto;
     height: auto;
     z-index: -100;
-    transform: translateX(-50%) translateY(-45%);
+    transform: translateX(-50%) translateY(-55%);
   }
 
+}
+
+.hero__video-after {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid #E1AC50;
+  margin: 0;
 }
 
 

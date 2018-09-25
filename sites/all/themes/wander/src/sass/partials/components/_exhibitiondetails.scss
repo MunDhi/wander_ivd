@@ -15,6 +15,10 @@
 //  padding: 5% 5% 5% 5%;
 //}
 
+.exhibition-details {
+  margin: 0 auto;
+  max-width: 900px;
+}
 
 #location-frame {
   width: 100%;
@@ -47,7 +51,7 @@
   }
 
   .button {
-    margin: 0;
+    margin: 20px 0 0;
     background-color: $wanderWhite;
     &:hover {
       background-color: $mustard;
@@ -55,11 +59,24 @@
   }
 
   p {
-    margin-bottom: 15px;
+    text-align: left;
+    margin-bottom: 20px;
   }
 
   p:last-child {
     margin-bottom: 100px;
   }
+}
+
+@include media('>medium') {
+
+  #location-frame {
+    flex-direction: row;
+  }
+
+  .map {
+    height: 631px;
+  }
+
 }
 

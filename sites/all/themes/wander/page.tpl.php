@@ -98,6 +98,8 @@
 
             </div>
 
+            <hr class="hero__video-after">
+
 
     <?php print render($title_prefix); ?>
     <?php if ($title): ?>

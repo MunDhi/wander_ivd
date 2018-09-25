@@ -4,4 +4,21 @@
     display: none;
   }
 
+  .content {
+    width: 90%;
+    max-width: 900px;
+
+    .field .button{
+      margin: 50px auto 100px;
+    }
+  }
+
+  p:first-child {
+    padding-top: 100px;
+  }
+  
+  p {
+    text-align: center;
+  }
+
 }
