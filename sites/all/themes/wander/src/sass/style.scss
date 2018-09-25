@@ -1,0 +1,48 @@
+/*------------------------------------**
+  $VENDOR
+**------------------------------------*/
+
+@import "vendor/_reset.scss";
+@import "vendor/_include-media.scss";
+
+/*------------------------------------**
+  $LAYOUTS
+**------------------------------------*/
+@import "partials/layouts/_header.scss";
+@import "partials/layouts/_front.scss";
+
+
+/*------------------------------------**
+  $PARTIALS
+**------------------------------------*/
+
+@import "partials/_variables.scss";
+@import "partials/_mixins.scss";
+@import "partials/_typography.scss";
+@import "partials/_layout.scss";
+@import "partials/_forms.scss";
+@import "partials/_navmenu.scss";
+
+/*---------------------------------------**
+  $COMPONENTS
+------------------------------------------*/
+@import "partials/components/_components.scss";
+@import "partials/components/_hyperlinks.scss";
+@import "partials/components/_exhibitiondetails.scss";
+
+
+
+/*------------------------------------**
+  $AOS-COMPONENTS
+**------------------------------------*/
+@import "partials/aos-components/_aos-components.scss";
+
+/*------------------------------------**
+  $OTHERS
+**------------------------------------*/
+
+@import "partials/_shame.scss";
+@import "partials/_print.scss";
+
+@import "slick/_slick.scss";
+@import "slick/_slick-theme.scss";

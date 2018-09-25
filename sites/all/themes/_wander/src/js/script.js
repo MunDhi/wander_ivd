@@ -1,0 +1,1 @@
+var floatlabels = new FloatLabels('form', {});

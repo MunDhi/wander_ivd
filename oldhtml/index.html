@@ -1,0 +1,324 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>WANDER 2018 Design Exhibition</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Oswald:400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/style.min.css">
+	<link rel="stylesheet" href="src/sass/style.scss">
+
+	<!--links to Slick SCRIPTS-->
+	<link rel="stylesheet" type="text/css" href="slick/slick.scss"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.scss"/>
+</head>
+
+<style>
+
+	/*video*/
+
+
+
+	#myVideo {
+		visibility: visible;
+		right: 0;
+		bottom: 0;
+		margin: 0 0 0 0;
+		width: 100%;
+		z-index: 0;
+	}
+
+	.hero-content-img {
+		position: absolute;
+		text-align: center;
+		left:0;
+		top: 0;
+		width: 100%;
+		z-index: 2;
+	}
+
+	.autoplay {
+		height: 150px;
+		width: 145%;
+	}
+
+	.cell {
+
+	}
+
+	.autoplay div {
+		margin: 0 5px;
+	}
+
+	.autoplay img {
+		width: 100%;
+	}
+
+	@media only screen and (max-width: 1000px) {
+
+		#myVideo {
+			width: 200%;
+		}
+
+		.autoplay {
+			width: 250%;
+		}
+	}
+
+</style>
+
+<body>
+
+<header class="header">
+
+	<div class="header-half">
+		<a href="index.html"><img id="header-img" src="dist/images/icon.png"></a>
+	</div>
+
+	<div class="header-half">
+		<div class="burger">
+			<div class="burger__patty"></div>
+			<div class="burger__patty"></div>
+			<div class="burger__patty"></div>
+		</div>
+
+		<nav class="menu">
+			<div class="menu__brand">
+				<a href="">
+					<div class="logo_full"><img src="dist/images/logo_flat.png"></div>
+					<div class="logo_icon"><img src="dist/images/icon.png"></div>
+				</a>
+			</div>
+			<ul class="menu__list">
+				<li class="menu__item">
+					<a href="" class="menu__link" id="link-about">ABOUT</a>
+				</li>
+				<li class="menu__item">
+					<a href="" class="menu__link"  id="link-team">TEAM</a>
+				</li>
+				<li class="menu__item">
+					<a href="" class="menu__link" id="link-graduates">GRADUATES</a>
+				</li>
+				<li class="menu__item">
+					<a href="projects.php" class="menu__link" id="link-projects">PROJECTS</a>
+				</li>
+				<li class="menu__item">
+					<a href="" class="menu__link" id="link-sponsors">SPONSORS</a>
+				</li>
+				<li class="menu__item">
+					<a href="" class="menu__link" id="link-contact">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section class="hero" data-0="width: 100%; margin-left:0%;" data-450="width:20%; margin-left:40%;">
+
+	<video autoplay muted id="myVideo">
+		<source src="dist/videos/herovid.mp4" type="video/mp4">
+	</video>
+
+</section>
+
+<div class="container">
+
+	<section id="top-section" data-aos="fade-in">
+
+				<p class="inner-paragraph">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+					Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+					Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+					In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+				</p>
+
+				<p class="inner-paragraph">
+					um felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+					Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+					Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+					Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+					sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+				</p>
+
+				<button class="button">
+					FIND OUT MORE
+				</button>
+	</section>
+
+	<section id="middle-top-section">
+		<div id="location-frame">
+			<div class="map"></div>
+			<div class="address">
+				<h1>Exhibition Details</h1>
+				<h4>Where?</h4>
+				<p>Z9-110 & Z9-120</p>
+				<p>QUT Creative Industries Precinct</p>
+				<p>Gona Parade, Kelvin Grove QLD 4059</p>
+
+				<h4>When?</h4>
+				<h4>OPENING NIGHT</h4>
+				<p>13 November 2018</p>
+
+				<h4>EXHIBITION</h4>
+				<p>12-16 November 2018</p>
+
+				<p id="cater">Food and drinks will be provided</p>
+
+				<button>GO TO EVENT</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="carousel-section">
+
+		<div class="autoplay">
+			<div class="cell"><img src="dist/images/cabin.jpg"></div>
+			<div class="cell"><img src="dist/images/dam.jpg"></div>
+			<div class="cell"><img src="dist/images/paul.jpg"></div>
+			<div class="cell"><img src="dist/images/cabin.jpg"></div>
+			<div class="cell"><img src="dist/images/dam.jpg"></div>
+			<div class="cell"><img src="dist/images/paul.jpg"></div>
+		</div>
+
+	</section>
+
+	<section id="low-section">
+		<h1 class="section-header">Sponsors</h1>
+	</section>
+
+	<footer>
+		<h1 class="section-header">Brought to you Buy</h1>
+	</footer>
+
+</div><!--/container-->
+
+
+<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="https://prinzhorn.github.io/skrollr/dist/skrollr.min.js"></script>
+
+<script src="dist/js/vendor/float-labels.min.js"></script>
+<script src="dist/js/script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+    // AOS Initialise
+    AOS.init();
+
+
+    // Menu functions
+
+	(function() {
+
+	var Menu = (function() {
+	var burger = document.querySelector('.burger');
+	var menu = document.querySelector('.menu');
+	var menuList = document.querySelector('.menu__list');
+	var brand = document.querySelector('.menu__brand');
+	var menuItems = document.querySelectorAll('.menu__item');
+
+	var active = false;
+
+	var toggleMenu = function() {
+	if (!active) {
+	menu.classList.add('menu--active');
+	menuList.classList.add('menu__list--active');
+	brand.classList.add('menu__brand--active');
+	burger.classList.add('burger--close');
+	for (var i = 0, ii = menuItems.length; i < ii; i++) {
+	menuItems[i].classList.add('menu__item--active');
+	}
+
+	active = true;
+	} else {
+	menu.classList.remove('menu--active');
+	menuList.classList.remove('menu__list--active');
+	brand.classList.remove('menu__brand--active');
+	burger.classList.remove('burger--close');
+	for (var i = 0, ii = menuItems.length; i < ii; i++) {
+	menuItems[i].classList.remove('menu__item--active');
+	}
+
+	active = false;
+	}
+	};
+
+	var bindActions = function() {
+	burger.addEventListener('click', toggleMenu, false);
+	};
+
+	var init = function() {
+	bindActions();
+	};
+
+	return {
+	init: init
+	};
+
+	}());
+
+	// Menu initialise
+
+	Menu.init();
+
+	}());
+
+	//Skrollr
+
+
+    var setSkrollr = function($el, data) {
+        for (var i = 0, l = data.length; i < l; i++) {
+            var d = data[i],
+                px = d[0];
+            css = d[1];
+            $el.attr('data-' + px, css);
+        }
+    }
+
+    jQuery(function($) {
+        setSkrollr($('#box1'), [[0, 'width:100%'], [1500, 'width:0%']]);
+        setSkrollr($('#box2'), [[0, 'transform:translateX(-100%)'], [750, 'transform:translateX(100%)'], [1500, 'transform:translateX(-100%)']]);
+
+        skrollr.init({
+            smoothScrolling: false
+        });
+    });
+</script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="src/js/slick.min.js"></script>
+
+<script>
+    $('.autoplay').slick({
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+		infinite: true
+    });
+
+</script>
+
+</body>
+</html>

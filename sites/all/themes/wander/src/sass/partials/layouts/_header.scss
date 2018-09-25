@@ -1,0 +1,35 @@
+
+header {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+
+  .siteinfo {
+    padding: 20px;
+    width: 50%;
+    background-color: #FEFCFB;
+    a img {
+      height: 50px;
+    }
+  }
+
+  .header-region {
+    width: 50%;
+    background-color: #FEFCFB;
+  }
+  
+  hgroup {
+    display: none;
+  }
+}
+
+@include media('>medium') {
+
+  header .siteinfo a img {
+    margin-left: 50px;
+    height: 80px;
+  }
+
+}

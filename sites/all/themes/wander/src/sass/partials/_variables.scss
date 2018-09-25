@@ -1,0 +1,79 @@
+/**
+ * VARIABLES
+ * Table of contents: Navigate using $TITLE
+ *
+ * general
+ *  margins
+ */
+
+/*------------------------------------**
+  $GENERAL
+**------------------------------------*/
+
+// Colours
+
+$mustard: #E1AC50;
+$orange: #DD835B;
+$pink: #DFAEAA;
+$blue: #CBD9D5;
+
+$mustardLight: #EAC583;
+$mustardDark: #D3A14B;
+
+$orangeLight: #E0A58A;
+$orangeDark: #CA8973;
+
+$pinkLight: #E6C4B6;
+$pinkDark: #C29793;
+
+$blueLight: #D6E7E2;
+$blueDark: #B2CDC6;
+
+$rusticWood: #AA6155;
+
+$wanderWhite: #FEFCFB;
+$wanderBlack: #303030;
+
+$accent: $mustard;
+$accent-light: $mustardLight;
+$accent-dark: $mustardDark;
+
+$success: #79ba00;
+$success-light: rgba($success,0.4);
+$warning: #f7803a;
+$warning-light: rgba($warning,0.4);
+$error: #ff3f22;
+$error-light: rgba($error,0.4);
+
+$grey: #f4f4f4;
+$black: #000;
+$white: #fff;
+
+$text: #333333;
+$headings: $black;
+$text-light: #979797;
+
+// Fonts/typography
+
+$font: 'Josefin Sans', sans-serif;
+$font-alt: 'Josefin Sans-Regular', sans-serif;
+$font-alt-bold: 'Josefin Sans-Medium', sans-serif;
+
+$book: 400;
+$bold: 700;
+
+// Containers
+
+$max-width: 900px;
+$wrapper-width: 1175px;
+
+// Margins
+
+$between-paragraphs-s: 20px;
+$between-paragraphs-l: 30px;
+
+$margin-bottom-s: 100px;
+$margin-bottom-l: 150px;
+
+$between-elements-s: 20px;
+$between-elements-l: 50px;

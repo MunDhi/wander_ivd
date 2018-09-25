@@ -1,0 +1,65 @@
+//
+//.map {
+//  width: 50%;
+//  height: 600px;
+//  float: left;
+//  clear: left;
+//  background: $wanderBlack;
+//}
+//
+//.address {
+//  width: 50%;
+//  height: 600px;
+//  float: left;
+//  background: $mustardLight;
+//  padding: 5% 5% 5% 5%;
+//}
+
+
+#location-frame {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+  background-image: url("/sites/default/files/map.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background: $mustardLight;
+  color: black;
+  padding: 50px 20px 80px;
+  margin-bottom: $margin-bottom-l;
+
+  h3 {
+    line-height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    margin: 0;
+    background-color: $wanderWhite;
+    &:hover {
+      background-color: $mustard;
+    }
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  p:last-child {
+    margin-bottom: 100px;
+  }
+}
+
