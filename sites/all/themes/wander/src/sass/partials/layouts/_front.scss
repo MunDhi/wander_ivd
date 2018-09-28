@@ -22,3 +22,23 @@
   }
 
 }
+
+@include media(">medium") {
+  
+  .front {
+
+    .content {
+
+
+      .field .button {
+        margin: 50px 0 150px;
+      }
+    }
+    
+    p {
+      text-align: left;
+    }
+    
+  }
+  
+}

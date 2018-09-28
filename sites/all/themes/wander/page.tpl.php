@@ -89,16 +89,19 @@
 
         <div role="main" id="main-content">
 
-            <div class="hero" data-0="opacity: 1;" data-450="opacity: 0;">
+            <?php print render($page['feature']); ?>
 
 
-                <video autoplay muted id="myVideo" class="hero__video">
-                    <source src="sites/default/files/herovid.mp4" type="video/mp4">
-                </video>
-
-            </div>
-
-            <hr class="hero__video-after">
+            <!--            <div class="hero" data-0="opacity: 1;" data-450="opacity: 0;">-->
+<!---->
+<!---->
+<!--                <video autoplay muted id="myVideo" class="hero__video">-->
+<!--                    <source src="sites/default/files/herovid.mp4" type="video/mp4">-->
+<!--                </video>-->
+<!---->
+<!--            </div>-->
+<!---->
+<!--            <hr class="hero__video-after">-->
 
 
     <?php print render($title_prefix); ?>

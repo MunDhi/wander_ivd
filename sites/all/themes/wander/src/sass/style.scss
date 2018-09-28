@@ -6,13 +6,6 @@
 @import "vendor/_include-media.scss";
 
 /*------------------------------------**
-  $LAYOUTS
-**------------------------------------*/
-@import "partials/layouts/_header.scss";
-@import "partials/layouts/_front.scss";
-
-
-/*------------------------------------**
   $PARTIALS
 **------------------------------------*/
 
@@ -22,6 +15,16 @@
 @import "partials/_layout.scss";
 @import "partials/_forms.scss";
 @import "partials/_navmenu.scss";
+
+
+/*------------------------------------**
+  $LAYOUTS
+**------------------------------------*/
+@import "partials/layouts/_header.scss";
+@import "partials/layouts/_front.scss";
+@import "partials/layouts/_footer.scss";
+
+
 
 /*---------------------------------------**
   $COMPONENTS
