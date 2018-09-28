@@ -34,15 +34,15 @@
 @keyframes floatingV {
   from { transform: translate(400% 20%) rotate(0deg); }
   30%  { transform: translate(200%, 90%) rotate(40deg); }
-  75%  { transform: translate(400%, 10%) rotate(-10deg); }
-  to   { transform: translate(100% 0%) rotate(0deg); }
+  75%  { transform: translate(400%, -10%) rotate(-10deg); }
+  to   { transform: translate(100% -10%) rotate(0deg); }
 }
 
 @keyframes floatingD {
-  from { transform: translate(50%, 0%) rotate(0deg); }
-  25%  { transform: translate(40%, 0%) rotate(-30deg); }
-  50%  { transform: translate(40%, 40%) rotate(-30deg); }
-  75%  { transform: translate(50%, 70%) rotate(0deg); }
-  to   { transform: translate(50%, 0%) rotate(0deg); }
+  from { transform: translate(0%, 0%) rotate(45deg); }
+  25%  { transform: translate(100%, -200%) rotate(-30deg); }
+  50%  { transform: translate(150%, 50%) rotate(-30deg); }
+  75%  { transform: translate(400%, -50%) rotate(20deg); }
+  to   { transform: translate(100%, -150%) rotate(-10deg); }
 }
 
