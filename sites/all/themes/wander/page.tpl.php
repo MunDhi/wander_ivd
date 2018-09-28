@@ -83,6 +83,23 @@
 
 </header>
 
+<div class="hero" data-0="opacity: 1" data-450="opacity: 0">
+
+    <div class="floater_I" style="height: 80px; width: 80px;">
+        <img src="sites/default/files/floater_I.png">
+    </div>
+
+    <div class="floater_V" style="height: 250px; width: 250px;">
+        <img src="sites/default/files/floater_V.png">
+    </div>
+
+    <div class="floater_D" style="height: 250px; width: 250px;">
+        <img src="sites/default/files/floater_D.png">
+    </div>
+
+</div>
+
+
 <div class="page">
 
     <div class="container">
@@ -91,17 +108,6 @@
 
             <?php print render($page['feature']); ?>
 
-
-            <!--            <div class="hero" data-0="opacity: 1;" data-450="opacity: 0;">-->
-<!---->
-<!---->
-<!--                <video autoplay muted id="myVideo" class="hero__video">-->
-<!--                    <source src="sites/default/files/herovid.mp4" type="video/mp4">-->
-<!--                </video>-->
-<!---->
-<!--            </div>-->
-<!---->
-<!--            <hr class="hero__video-after">-->
 
 
     <?php print render($title_prefix); ?>
