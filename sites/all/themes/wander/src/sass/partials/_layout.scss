@@ -132,6 +132,16 @@ section {
 // GRADUATES //
 
 .graduate {
-  width: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 
+  .field-type-image, .field-type-text-with-summary {
+    width: 50%;
+    padding: 2%;
+  }
+
+  h2 {
+    display: none;  //REMOVE WHEN TEMPLATES HAVE BEEN UPDATED
+  }
 }
