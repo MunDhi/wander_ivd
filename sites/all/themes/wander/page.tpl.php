@@ -70,7 +70,7 @@
                         <a href="sponsors.php" class="menu__link" id="link-sponsors">SPONSORS</a>
                     </li>
                     <li class="menu__item">
-                        <a href="contact.php" class="menu__link" id="link-contact">CONTACT</a>
+                        <a href="/contact" class="menu__link" id="link-contact">CONTACT</a>
                     </li>
                 </ul>
             </nav>
