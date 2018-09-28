@@ -61,7 +61,7 @@
                         <a href="team.php" class="menu__link"  id="link-team">TEAM</a>
                     </li>
                     <li class="menu__item">
-                        <a href="graduates.php" class="menu__link" id="link-graduates">GRADUATES</a>
+                        <a href="/graduates" class="menu__link" id="link-graduates">GRADUATES</a>
                     </li>
                     <li class="menu__item">
                         <a href="projects.php" class="menu__link" id="link-projects">PROJECTS</a>
