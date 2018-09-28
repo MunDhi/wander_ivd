@@ -81,7 +81,11 @@
     </div>
   <?php endif; ?>
 
+
+
 </header>
+
+    <?php print render($page['feature']); ?>
 
 <div class="page">
 
@@ -89,7 +93,7 @@
 
         <div role="main" id="main-content">
 
-            <?php print render($page['feature']); ?>
+
 
 
             <!--            <div class="hero" data-0="opacity: 1;" data-450="opacity: 0;">-->
