@@ -10,7 +10,7 @@ hide($content['links']);
 
 ?>
 
-<div class="tile-teaser">
+<div class="graduate-teaser">
 
     <a href="<?php print $node_url; ?>" <?php print $id_node . $classes .  $attributes; ?>>
 

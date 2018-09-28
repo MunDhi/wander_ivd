@@ -10,7 +10,7 @@ hide($content['links']);
 
 ?>
 
-<div class="tile-teaser">
+<div class="graduate">
 
 
       <h2<?php print $title_attributes; ?>>
