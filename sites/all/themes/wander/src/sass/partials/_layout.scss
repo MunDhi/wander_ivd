@@ -53,6 +53,18 @@ img {
   max-width: 900px;
 }
 
+.not-front {
+
+  .container h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    color: #E1AC50;
+  }
+
+}
+
 /*------------------------------------**
   $HEADER
 **------------------------------------*/
@@ -110,4 +122,6 @@ section {
     max-height: none;
   }
 }
+
+// FLOATERS //
 
