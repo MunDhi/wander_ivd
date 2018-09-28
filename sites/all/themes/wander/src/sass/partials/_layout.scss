@@ -29,6 +29,11 @@ html {
   outline: 2px solid $accent;
 }
 
+.page {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 .container {
     //@include container;
   overflow: hidden;
