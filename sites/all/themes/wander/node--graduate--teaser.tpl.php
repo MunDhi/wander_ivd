@@ -12,6 +12,7 @@ hide($content['links']);
 
 <div class="tile-teaser">
 
+    <a href="<?php print $node_url; ?>" <?php print $id_node . $classes .  $attributes; ?>>
 
       <h2<?php print $title_attributes; ?>>
           <div class="title"><?php print $title; ?>
@@ -20,6 +21,6 @@ hide($content['links']);
 
         <?php print render($content);?>
 
-
+    </a>
 
 </div>
