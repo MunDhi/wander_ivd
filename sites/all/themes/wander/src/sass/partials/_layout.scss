@@ -30,14 +30,14 @@ html {
 }
 
 .page {
-  margin: 0 auto;
-  max-width: 940px;
+  border-top: 5px solid $mustard;
 }
 
 .container {
     //@include container;
+  margin: 0 auto;
+  max-width: 940px;
   overflow: hidden;
-  border-top: 5px solid $mustard;
 }
 
 img {
@@ -117,7 +117,6 @@ section {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 5px solid #E1AC50;
   margin: 0;
 }
 
@@ -144,4 +143,12 @@ section {
   h2 {
     display: none;  //REMOVE WHEN TEMPLATES HAVE BEEN UPDATED
   }
+}
+
+@media only screen and (max-width: 1200px) {
+  .field-type-image, .field-type-text-with-summary {
+    width: 100%;
+    padding: 2%;
+  }
+
 }
