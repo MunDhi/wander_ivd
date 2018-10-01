@@ -140,16 +140,18 @@ section {
     padding: 2%;
   }
 
-  h2 {
-    display: none;  //REMOVE WHEN TEMPLATES HAVE BEEN UPDATED
-  }
 }
 
 @media only screen and (max-width: 1200px) {
-  .field-type-image, .field-type-text-with-summary {
-    width: 100%;
-    padding: 2%;
-    background: white;
+
+  .graduate {
+
+    .field-type-image, .field-type-text-with-summary {
+      width: 100%;
+      padding: 2%;
+      background: white;
+    }
+
   }
 
 }
