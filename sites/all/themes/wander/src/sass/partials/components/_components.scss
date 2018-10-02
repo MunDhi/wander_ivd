@@ -51,12 +51,13 @@
   $FORM MESSAGE FIELD
 **------------------------------------*/
 
-.form-area-wrapper {
-    border-bottom: solid 1px $orange;
-    color: $wanderBlack;
-    padding: 1%;
-    width: 100%;
-  }
+.node-webform {
+    background: green;
+
+    textarea {
+      color: $wanderBlack;
+    }
+}
 
 
 /*------------------------------------**
