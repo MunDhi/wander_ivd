@@ -99,7 +99,7 @@
   display: flex;
   justify-content: center;
   transition: all 0.3s ease;
-  
+
   &:hover {
     text-decoration: none;
     background-color: $mustard;
@@ -115,7 +115,7 @@
   input[type=submit] {
     margin: 50px 0;
     color: $wanderBlack;
-    background: $wanderWhitegit;
+    background: $wanderWhite;
     border: solid 3px $mustard;
     padding: 15px 20px;
     font-weight: 600;
