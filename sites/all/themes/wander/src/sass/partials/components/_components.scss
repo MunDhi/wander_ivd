@@ -47,7 +47,16 @@
 }
 
 
+/*------------------------------------**
+  $FORM MESSAGE FIELD
+**------------------------------------*/
 
+.form-area-wrapper {
+    border-bottom: solid 1px $orange;
+    color: $wanderBlack;
+    padding: 1%;
+    width: 100%;
+  }
 
 
 /*------------------------------------**
@@ -100,7 +109,23 @@
 }
 
 .form-actions {
-  .input.webform-submit {
+  input[type=submit] {
+    margin: 50px 0;
+    color: $wanderBlack;
+    border: solid 3px $mustard;
+    padding: 15px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;
 
+    &:hover {
+      text-decoration: none;
+      background-color: $mustard;
+    }
   }
 }
