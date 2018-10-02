@@ -30,5 +30,5 @@
 </div>
 
 <div class="links">
-  <a href="<?php print $url; ?>"><?php print t('Go back to the form'); ?></a>
+  <a href="<?php print $url; ?>"><?php print t('Let&#39;s Wander back... '); ?></a>
 </div>
