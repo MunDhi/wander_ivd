@@ -48,15 +48,19 @@
 
 
 /*------------------------------------**
-  $FORM MESSAGE FIELD
+  $CONTACT FORM
 **------------------------------------*/
 
-.node-webform {
+.webform-confirmation {
+  padding-top: 5%;
+}
 
+.node-webform {
     textarea {
       color: $wanderBlack;
     }
 }
+
 
 
 /*------------------------------------**
@@ -111,6 +115,7 @@
   input[type=submit] {
     margin: 50px 0;
     color: $wanderBlack;
+    background: $wanderWhitegit;
     border: solid 3px $mustard;
     padding: 15px 20px;
     font-weight: 600;
