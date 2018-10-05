@@ -31,6 +31,10 @@ html {
 
 @include media('<small') {
 
+  .content p {
+    text-align: center;
+  }
+
   // GRADUATES //
   .graduate {
     width: 100%;
@@ -89,6 +93,8 @@ img {
 .content {
   margin: 0 auto;
   max-width: 900px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .not-front {
@@ -107,7 +113,6 @@ img {
 /*------------------------------------**
   $HEADER
 **------------------------------------*/
-
 
 section {
   padding: 5% 20% 5% 20%
@@ -167,6 +172,10 @@ section {
       width: 50%;
       padding: 2%;
     }
+  }
+
+  .content p {
+    text-align: left;
   }
 
   #main-content {
