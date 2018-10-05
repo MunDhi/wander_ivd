@@ -62,8 +62,6 @@ html {
   }
 }
 
-
-
 .page {
   border-top: 3px solid $mustard;
 }
@@ -103,9 +101,7 @@ img {
     color: #E1AC50;
     z-index: -1;
   }
-
 }
-
 
 
 /*------------------------------------**
@@ -128,7 +124,6 @@ section {
   height: 200px;
 }
 
-
 .hero {
   position: relative;
   height: 90vh;
@@ -147,7 +142,6 @@ section {
     z-index: -100;
     transform: translateX(-50%) translateY(-55%);
   }
-
 }
 
 .hero__video-after {

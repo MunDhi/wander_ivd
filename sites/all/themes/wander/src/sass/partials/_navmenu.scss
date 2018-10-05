@@ -47,9 +47,9 @@ body {
   @include easeOut;
 
   &__patty {
-    width: 28px;
-    height: 2px;
-    margin: 0 0 4px 0;
+    width: 32px;
+    height: 3px;
+    margin: 0 0 10px 0;
     background: black;
     @include easeOut;
 
@@ -65,13 +65,13 @@ body {
 
     .burger__patty {
       &:nth-child(1) {
-        transform: rotate(45deg) translate(4px, 4px);
+        transform: rotate(45deg) translate(9px, 8px);
       }
       &:nth-child(2) {
         opacity: 0;
       }
       &:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -4px);
+        transform: rotate(-45deg) translate(10px, -10px);
       }
     }
   }
