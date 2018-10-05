@@ -153,3 +153,57 @@
     background-color: $mustard;
   }
 }
+
+.view-filters {
+  padding: 5% 0% 5% 0%;
+}
+
+/*------------------------------------**
+  $FILTERS
+**------------------------------------*/
+
+#edit-project-category > div:nth-child(1) > label {
+  display: none;
+}
+
+label {
+    color: $wanderBlack;
+    border: solid 3px $mustard;
+    padding: 15px 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 180px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      text-decoration: none;
+      background-color: $mustard;
+    }
+}
+
+.views-widget {
+  background: #28b1ab;
+
+  input[type=radio] {
+    display: none;
+  }
+}
+
+/*------------------------------------**
+  $FILTER TEASER
+**------------------------------------*/
+
+#main-content {
+  background: yellow;
+
+  #main-content > div > article {
+    width: 30%;
+
+    h2 {
+      text-align: center;
+    }
+  }
+}
