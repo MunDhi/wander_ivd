@@ -3,5 +3,46 @@
   .view-header {
     width: 100%;
   }
+}
 
+@include media('<small') {
+
+  // GRADUATES PAGE //
+  .graduate {
+    width: 100%;
+
+    .field-type-image, .field-type-text-with-summary {
+      width: 100%;
+      padding: 2%;
+    }
+  }
+
+  .graduate-teaser {
+    margin-bottom: 1%;
+    padding: 2%;
+
+    .title {
+      background: $orange;
+      color: $wanderBlack;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      font-size: 0.8em;
+      width: 100%;
+      padding: 5%;
+    }
+  }
+}
+
+@include media('>medium') {
+  .graduate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .field-type-image, .field-type-text-with-summary {
+      width: 50%;
+      padding: 2%;
+    }
+  }
 }
