@@ -10,9 +10,6 @@
  */
 
 
-
-
-
 /*------------------------------------**
   $PAGE NAVIGATION
 **------------------------------------*/
@@ -205,3 +202,47 @@ label {
     }
   }
 }
+
+/*
+!*------------------------------------**
+  $PHOTOREEL
+**------------------------------------*!
+
+.slick {
+  z-index: -1;
+}
+
+.slide__content {
+  margin-right: 5%;
+}
+
+//#slick-views-slick-carousel-1-slider > div > div > div:nth-child(1) > ul {
+//  margin-right: 2%;
+//}
+
+#slick-views-slick-carousel-1 {
+  background: yellow;
+}
+
+@include media('<small') {
+
+  .slick {
+
+  }
+
+  .slick-wrapper {
+    padding: 0%;
+  }
+
+  #slick-views-slick-carousel-1 {
+    background: blue;
+  }
+
+  .slick-track {
+    background: green;
+  }
+
+  .slide__content {
+
+  }
+}*/

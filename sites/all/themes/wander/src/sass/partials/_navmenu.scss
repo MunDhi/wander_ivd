@@ -78,7 +78,7 @@ body {
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -273,7 +273,33 @@ body {
     width: 15%;
     margin-top: 3%;
     margin-left: 5%;
+  }
 
+  .burger {
+    margin-right: 20px;
+
+    &__patty {
+      width: 25px;
+      height: 3px;
+      margin: 0 0 5px 0;
+    }
+
+    &--close {
+      transform: rotate(180deg);
+      z-index: 99;
+
+      .burger__patty {
+        &:nth-child(1) {
+          transform: rotate(45deg) translate(6px, 5px);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg) translate(6px, -6px);
+        }
+      }
+    }
   }
 
 }
