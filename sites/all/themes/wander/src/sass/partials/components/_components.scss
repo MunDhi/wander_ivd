@@ -159,9 +159,7 @@
   $FILTERS
 **------------------------------------*/
 
-#edit-project-category > div:nth-child(1) > label {
-  display: none;
-}
+
 
 label {
     color: $wanderBlack;
@@ -176,18 +174,25 @@ label {
     transition: all 0.3s ease;
 
     &:hover {
-      text-decoration: none;
-      background-color: $mustard;
+        text-decoration: none;
+        background-color: $mustard;
     }
 }
 
-.views-widget {
+#edit-project-category > div:nth-child(1) > label {
+  display: none;
+}
+
+#edit-project-category {
   background: #28b1ab;
+  display: flex;
+  justify-content: space-between;
 
   input[type=radio] {
     display: none;
   }
 }
+
 
 /*------------------------------------**
   $FILTER TEASER
@@ -202,47 +207,3 @@ label {
     }
   }
 }
-
-/*
-!*------------------------------------**
-  $PHOTOREEL
-**------------------------------------*!
-
-.slick {
-  z-index: -1;
-}
-
-.slide__content {
-  margin-right: 5%;
-}
-
-//#slick-views-slick-carousel-1-slider > div > div > div:nth-child(1) > ul {
-//  margin-right: 2%;
-//}
-
-#slick-views-slick-carousel-1 {
-  background: yellow;
-}
-
-@include media('<small') {
-
-  .slick {
-
-  }
-
-  .slick-wrapper {
-    padding: 0%;
-  }
-
-  #slick-views-slick-carousel-1 {
-    background: blue;
-  }
-
-  .slick-track {
-    background: green;
-  }
-
-  .slide__content {
-
-  }
-}*/
