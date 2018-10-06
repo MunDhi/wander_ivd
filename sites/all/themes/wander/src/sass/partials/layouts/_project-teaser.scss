@@ -1,11 +1,22 @@
-.project-teaser {
+#main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+ .project-teaser {
+  width: 30%;
 
   a {
-
     .title {
+      font-size: 0.3em;
       color: $wanderBlack;
+      text-align: center;
+      background: $orange;
     }
+
 
   }
 
 }
+
+
