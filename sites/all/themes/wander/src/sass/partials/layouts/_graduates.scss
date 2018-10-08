@@ -6,11 +6,12 @@
 
   #main-content {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
 
     .graduate-grid {
-      width: 30%;
+      width: 100%;
     }
 
     div:last-child {
@@ -20,3 +21,19 @@
 
 }
 
+@include media ('>medium') {
+
+  .page-graduates .page {
+
+    #main-content {
+      flex-direction: row;
+
+      .graduate-grid {
+        width: 30%;
+      }
+
+    }
+
+  }
+
+}
