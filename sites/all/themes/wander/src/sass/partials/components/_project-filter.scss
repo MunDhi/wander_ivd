@@ -1,0 +1,46 @@
+
+/*------------------------------------**
+  $FILTERS
+**------------------------------------*/
+
+.container {
+  background: blue;
+}
+
+#main-content > div.view-filters {
+  background: #28b1ab;
+  padding: 5% 0% 5% 0%;
+
+  #views-exposed-form-projects-page {
+    background: red;
+    padding: 0.5%;
+    width: 100%;
+
+    #edit-project-category-wrapper {
+      width: 100%;
+
+      #edit-project-category {
+        background: yellow;
+        display: flex;
+        justify-content: space-between;
+
+        input[type="checkbox"]+label, input[type="radio"]+label {
+          position: center;
+        }
+
+        input[type="checkbox"], input[type="radio"] {
+          display: none;
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+#edit-project-category > div:nth-child(1) > label {
+
+}
+
+#edit-project-category > div:nth-child(2) > label {
+
+}
