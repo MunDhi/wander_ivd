@@ -1,7 +1,38 @@
 .graduate-teaser {
+  margin-bottom: 1%;
+  padding: 2%;
 
   .title {
+    background: $orange;
     color: $wanderBlack;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-size: 0.5em;
+    width: 100%;
+    padding: 5%;
+  }
+}
+
+
+@include media('>medium') {
+
+  .graduate-teaser {
+
+    .field-type-image {
+      width: 100%;
+    }
+
+    .title {
+      width: 100%;
+      background: $orange;
+      color: $wanderBlack;
+      font-size: 0.6em;
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 2%;
+    }
   }
 
 }
