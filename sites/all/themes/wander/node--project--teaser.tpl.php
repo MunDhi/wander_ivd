@@ -9,18 +9,17 @@ hide($content['comments']);
 hide($content['links']);
 
 ?>
+    <div class="project-teaser">
 
-<div class="project-teaser">
+        <a href="<?php print $node_url; ?>" <?php print $id_node . $classes .  $attributes; ?>>
 
-    <a href="<?php print $node_url; ?>" <?php print $id_node . $classes .  $attributes; ?>>
+            <?php print render($content);?>
 
-        <?php print render($content);?>
+            <h2<?php print $title_attributes; ?>>
+                <div class="title"><?php print $title; ?>
+                </div>
+            </h2>
 
-        <h2<?php print $title_attributes; ?>>
-            <div class="title"><?php print $title; ?>
-            </div>
-        </h2>
+        </a>
 
-    </a>
-
-</div>
+    </div>

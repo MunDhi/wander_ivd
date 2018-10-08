@@ -16,5 +16,4 @@ hide($content['links']);
         <?php print render($content);?>
 
 
-
 </div>
