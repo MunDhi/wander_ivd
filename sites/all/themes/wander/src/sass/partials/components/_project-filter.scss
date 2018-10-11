@@ -1,6 +1,12 @@
+
 .view-filters {
 
   .views-widget {
+    width: 100%;
+    padding-left: 33%;
+    padding-right: 30%;
+
+
 
       div input[type="radio"],
       label:before {
@@ -36,18 +42,26 @@
 
 @include media('>medium') {
 
-  .views-widget {
+  #main-content {
 
-    .form-radios {
-      display: flex;
-      justify-content: space-between;
+    .view-filters {
+      widtb: 100%;
 
-      div input[checked="checked"] > label {
-        font-weight: bold;
-      }
+      .views-widget {
+        padding-left: 0%;
+        padding-right: 0%;
+        .form-radios {
+          display: flex;
+          justify-content: space-between;
 
-      label {
-        margin-top: 5%;
+          div input[checked="checked"] > label {
+            font-weight: bold;
+          }
+
+          label {
+            margin-top: 5%;
+          }
+        }
       }
     }
   }
