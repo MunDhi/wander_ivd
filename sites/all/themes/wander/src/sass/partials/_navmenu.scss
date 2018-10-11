@@ -41,9 +41,8 @@ body {
 }
 
 .burger {
-  position: fixed;
+  margin-right: 30px;
   z-index: 100;
-  right: 30px;
   cursor: pointer;
   transform: rotateY(0);
   @include easeOut;
@@ -63,7 +62,8 @@ body {
   // transform burger into 'x'
   &--close {
     transform: rotate(180deg);
-    z-index: 99;
+    position: fixed;
+    right: 0;
 
     .burger__patty {
       &:nth-child(1) {
