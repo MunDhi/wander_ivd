@@ -41,7 +41,9 @@ body {
 }
 
 .burger {
-  margin-right: 30px;
+  position: fixed;
+  z-index: 100;
+  right: 30px;
   cursor: pointer;
   transform: rotateY(0);
   @include easeOut;
@@ -79,6 +81,7 @@ body {
 
 .menu {
   position: fixed;
+  z-index: 50;
   top: 0;
   left: 0;
   width: 100%;
