@@ -2,19 +2,55 @@
 
   .views-widget {
 
-    .form-radios {
-      display: flex;
-
       div input[type="radio"],
       label:before {
         display: none;
       }
 
       div input[checked="checked"] > label {
-        font-style: bold;
+        font-weight: bold;
+      }
+
+      label {
+        margin-top: 5%;
+        color: $wanderBlack;
+        border: solid 3px $mustard;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 14px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        transition: all 0.3s ease;
+
+        &:hover {
+          text-decoration: none;
+          background-color: $mustard;
+        }
+
       }
     }
 
-  }
 
+}
+
+@include media('>medium') {
+
+  .views-widget {
+
+    .form-radios {
+      display: flex;
+      justify-content: space-between;
+
+      div input[checked="checked"] > label {
+        font-weight: bold;
+      }
+
+      label {
+        margin-top: 5%;
+      }
+
+    }
+  }
 }
