@@ -12,8 +12,16 @@ hide($content['links']);
 
 <div class="graduate">
 
+    <?php echo render($content['field_graduate']); ?>
 
-        <?php print render($content);?>
+    <?php echo render($content['field_graduate_name']); ?>
+
+    <?php echo render($content['field_facebook']); ?>
+
+    <?php echo render($content['body']); ?>
+
+
+    <!--        --><?php //print render($content);?>
 
 
 
