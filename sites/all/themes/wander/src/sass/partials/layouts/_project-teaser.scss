@@ -1,23 +1,24 @@
 #main-content {
-  .view-filters {
-
-    .project-grid {
-      width: 30%;
-
-      .project-teaser {
-        width: 30%;
-      }
-
-      a {
-        .title {
-          font-size: 0.45em;
-          color: $wanderBlack;
-          text-align: center;
-          background: $wanderWhite;
-          font-weight: bold;
-        }
-      }
-    }
-  }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+.project-grid {
+  position: relative;
+  width: 30%;
+
+  .project-teaser {
+
+    a {
+      .title {
+        font-size: 0.45em;
+        color: $wanderBlack;
+        text-align: center;
+        background: $wanderWhite;
+        font-weight: bold;
+      }
+    }
+
+  }
+}
