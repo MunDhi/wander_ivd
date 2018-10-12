@@ -1,12 +1,22 @@
-.project-teaser {
-  width: 30%;
+#main-content {
+  .view-filters {
 
-  a {
-    .title {
-      font-size: 0.3em;
-      color: $wanderBlack;
-      text-align: center;
-      background: $wanderWhite;
+    .project-grid {
+      width: 30%;
+
+      .project-teaser {
+        width: 30%;
+      }
+
+      a {
+        .title {
+          font-size: 0.45em;
+          color: $wanderBlack;
+          text-align: center;
+          background: $wanderWhite;
+          font-weight: bold;
+        }
+      }
     }
   }
 }
