@@ -20,9 +20,17 @@ hide($content['links']);
 
         <div class="graduate-details">
 
-        <?php if ($content['field_graduate_name']): ?>
-            <h3><?php echo render($content['field_graduate_name']); ?></h3>
-        <?php endif; ?>
+            <div class="graduate-title">
+
+                <?php if ($content['field_graduate_name']): ?>
+                    <h3><?php echo render($content['field_graduate_name']); ?></h3>
+                <?php endif; ?>
+
+                <?php if ($content['field_role']): ?>
+                    <h5><?php echo render($content['field_role']); ?></h5>
+                <?php endif; ?>
+
+            </div>
 
             <div class="sm-icons">
 
@@ -42,7 +50,10 @@ hide($content['links']);
 
         </div>
 
-    <?php echo render($content['body']); ?>
+
+
+
+        <?php echo render($content['body']); ?>
 
     </div>
 

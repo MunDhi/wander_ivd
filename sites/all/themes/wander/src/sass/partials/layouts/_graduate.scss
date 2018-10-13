@@ -6,10 +6,16 @@
     display: none;
   }
   
-  h3 {
+  h3,
+  h5 {
     margin: 20px 0 10px;
     text-align: center;
   }
+
+  h5 {
+    margin: 0 0 20px;
+  }
+
 
   .graduate-portrait:hover {
     opacity: 0;
@@ -109,8 +115,10 @@
 @include media('>medium') {
   .node-type-graduate {
 
-    h3 {
+    h3, 
+    h5 {
       margin: 0;
+      text-align: left;
     }
 
     .graduate {
@@ -139,8 +147,6 @@
         .graduate-details {
           display: flex;
           justify-content: space-between;
-          align-items: center;
-
         }
 
       }
@@ -156,6 +162,9 @@
 
     .graduate-project {
       margin: 100px 0 0;
+      label {
+        font-size: 48px;
+      }
     }
 
   }
