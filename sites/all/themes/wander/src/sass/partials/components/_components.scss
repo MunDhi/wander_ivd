@@ -41,6 +41,10 @@
     color: $accent;
   }
 
+  a:focus {
+    outline: none;
+  }
+
 }
 
 

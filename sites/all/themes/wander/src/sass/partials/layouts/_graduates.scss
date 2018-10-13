@@ -12,6 +12,35 @@
 
     .graduate-grid {
       width: 100%;
+      .field-type-image {
+        width: 100%;
+        background-color: $mustard;
+        img {
+          opacity: 0.6;
+          transition: all 0.2s ease;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .graduate-grid:nth-child(4n+3) { // Select 2nd child and every fourth after //
+      .field-type-image {
+        background-color: $orange;
+      }
+    }
+
+    .graduate-grid:nth-child(4n+4) { // Select 3rd child and every fourth after //
+      .field-type-image {
+        background-color: $blue;
+      }
+    }
+
+    .graduate-grid:nth-child(4n+5) { // Select 4th child and every fourth after //
+      .field-type-image {
+        background-color: $pink;
+      }
     }
 
   }

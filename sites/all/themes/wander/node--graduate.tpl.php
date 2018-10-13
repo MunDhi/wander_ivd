@@ -10,6 +10,7 @@ hide($content['links']);
 
 ?>
 
+
 <div class="graduate">
 
     <?php echo render($content['field_graduate']); ?>
@@ -46,6 +47,24 @@ hide($content['links']);
                     <?php echo render($content['field_linkedin']); ?>
                 <?php endif; ?>
 
+                <?php if ($content['field_website']): ?>
+                    <?php echo render($content['field_website']); ?>
+                <?php endif; ?>
+
+                <?php if ($content['field_behance']): ?>
+                    <?php echo render($content['field_behance']); ?>
+                <?php endif; ?>
+
+                <?php if ($content['field_youtube']): ?>
+                    <?php echo render($content['field_youtube']); ?>
+                <?php endif; ?>
+
+
+                <?php if ($content['field_personal_ig']): ?>
+                    <?php echo render($content['field_personal_ig']); ?>
+                <?php endif; ?>
+
+
             </div>
 
         </div>
@@ -54,6 +73,7 @@ hide($content['links']);
 
 
         <?php echo render($content['body']); ?>
+
 
     </div>
 
@@ -66,5 +86,6 @@ hide($content['links']);
         <?php echo render($content['field_graduate_project']); ?>
     <?php endif; ?>
 
+    <a href="/graduates" style="margin: 50px 0 0 5%;">&larr; Graduates</a>
 
 </div>
