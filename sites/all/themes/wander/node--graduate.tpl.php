@@ -14,6 +14,8 @@ hide($content['links']);
 
     <?php echo render($content['field_graduate']); ?>
 
+    <?php echo render($content['field_graduate_gif']); ?>
+
     <div class="graduate-info">
 
         <div class="graduate-details">
