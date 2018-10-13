@@ -150,6 +150,9 @@
 
     </div><!-- /container-->
 
+    <?php print render($page['carousel']); ?>
+
+
     <?php if ($page['full width image']): ?>
         <div id='full-width-image'><div>
                     <?php print render($page['full width image']); ?>

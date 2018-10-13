@@ -14,15 +14,44 @@ hide($content['links']);
 
     <?php echo render($content['field_graduate']); ?>
 
-    <?php echo render($content['field_graduate_name']); ?>
+    <div class="graduate-info">
 
-    <?php echo render($content['field_facebook']); ?>
+        <div class="graduate-details">
+
+        <?php if ($content['field_graduate_name']): ?>
+            <h3><?php echo render($content['field_graduate_name']); ?></h3>
+        <?php endif; ?>
+
+            <div class="sm-icons">
+
+                <?php if ($content['field_facebook']): ?>
+                    <?php print render($content['field_facebook']); ?>
+                <?php endif; ?>
+
+                <?php if ($content['field_instagram']): ?>
+                    <?php echo render($content['field_instagram']); ?>
+                <?php endif; ?>
+
+                <?php if ($content['field_linkedin']): ?>
+                    <?php echo render($content['field_linkedin']); ?>
+                <?php endif; ?>
+
+            </div>
+
+        </div>
 
     <?php echo render($content['body']); ?>
 
+    </div>
 
-    <!--        --><?php //print render($content);?>
 
+    <?php if ($content['field_example_works']): ?>
+        <?php echo render($content['field_example_works']); ?>
+    <?php endif; ?>
+
+    <?php if ($content['field_graduate_project']): ?>
+        <?php echo render($content['field_graduate_project']); ?>
+    <?php endif; ?>
 
 
 </div>

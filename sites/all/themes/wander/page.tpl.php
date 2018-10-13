@@ -129,31 +129,16 @@
 <!--    --><?php //} ?>
 
 
-    <?php print render($page['content_pre']); ?>
-
-
     <?php print render($page['content']); ?>
-
-
-    <?php print render($page['content_post']); ?>
 
 
   </div><!-- /main-->
 
-  <?php if ($page['sidebar_first']): ?>
-    <div class="sidebar-first">
-    <?php print render($page['sidebar_first']); ?>
-    </div>
-  <?php endif; ?>
-
-  <?php if ($page['sidebar_second']): ?>
-    <div class="sidebar-second">
-      <?php print render($page['sidebar_second']); ?>
-    </div>
-  <?php endif; ?>
-
 
     </div><!-- /container-->
+
+    <?php print render($page['carousel']); ?>
+
 
     <?php if ($page['full width image']): ?>
         <div id='full-width-image'><div>
@@ -181,7 +166,16 @@
         </div>
     <?php endif; ?>
 
-    <?php print render($page['bottom']); ?>
+    <?php if ($page['carousel']): ?>
+        <div id='carousel'><div class='limiter clearfix'>
+                <div class="container">
+                    <?php print render($page['carousel']); ?>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
+
+
 
 </div><!-- /page-->
 

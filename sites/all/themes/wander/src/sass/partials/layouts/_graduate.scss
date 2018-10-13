@@ -5,34 +5,102 @@
   label {
     display: none;
   }
-
-}
-
-@include media('<small') {
-
-  // GRADUATES PAGE //
-  .graduate {
-    width: 100%;
-
-    .field-type-image, .field-type-text-with-summary {
-      width: 100%;
-      padding: 2%;
+  
+  h3 {
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+  
+  .sm-icons {
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 0 5px;
     }
   }
 
+  a.facebook-link {
+    font-size: 0;
+    background-image: url('../images/icons/facebook.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+
+  a.instagram-link {
+    font-size: 0;
+    background-image: url('../images/icons/instagram.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+
+  a.linkedin-link {
+    font-size: 0;
+    background-image: url('../images/icons/linkedin.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  a.facebook-link:hover,
+  a.instagram-link:hover,
+  a.linkedin-link:hover {
+    cursor: pointer;
+    transform: rotate(-25deg) scale(1.1);
+  }
+
+  .field-type-text-with-summary {
+    margin: 50px auto 100px;
+    width: 90%;
+  }
+
 }
+
 
 @include media('>medium') {
-  .graduate {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  .node-type-graduate {
 
-    .field-type-image, .field-type-text-with-summary {
-      width: 50%;
-      padding: 2%;
+    h3 {
+      margin: 0;
     }
+
+    .graduate {
+      margin: 100px 0 150px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .field-type-image {
+        width: 30%;
+      }
+
+      .graduate-info {
+        width: 65%;
+        justify-content: flex-start;
+
+        .graduate-details {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+        }
+
+      }
+    }
+
+    .field-type-text-with-summary {
+      margin-top: 30px;
+      width: 100%;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+
   }
-
-
 }
