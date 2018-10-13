@@ -23,6 +23,9 @@
           }
         }
       }
+      h2 {
+        font-size: 28px;
+      }
     }
 
     .graduate-grid:nth-child(4n+3) { // Select 2nd child and every fourth after //
@@ -47,14 +50,32 @@
 
 }
 
+@include media ('>small') {
+  .page-graduates .page {
+
+    #main-content {
+      flex-direction: row;
+      .graduate-grid {
+        width: 45%;
+      }
+
+    }
+
+  }
+}
+
 @include media ('>medium') {
 
   .page-graduates .page {
 
       #main-content {
-        flex-direction: row;
+
         .graduate-grid {
           width: 30%;
+
+          h2 {
+            font-size: 48px;
+          }
         }
 
       }
