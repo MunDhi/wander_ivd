@@ -32,10 +32,10 @@
 
   .graduate-portrait-gif {
     margin: 0 auto;
-    position: absolute;
-    top: 90px;
-    left: 50%;
-    transform: translateX(-50%);
+    //position: absolute;
+    //top: 90px;
+    //left: 50%;
+    //transform: translateX(-50%);
     max-width: 600px;
     width: 100%;
     z-index: -1;
@@ -176,16 +176,11 @@
       justify-content: space-between;
       flex-wrap: wrap;
 
-      .graduate-portrait {
-        margin: 0;
-        width: 30%;
-      }
-
       .graduate-portrait-gif {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translateX(0);
+        //position: absolute;
+        //top: 0;
+        //left: 0;
+        //transform: translateX(0);
         width: 30%;
       }
 

@@ -13,7 +13,7 @@ hide($content['links']);
 
 <div class="graduate">
 
-    <?php echo render($content['field_graduate']); ?>
+<!--    --><?php //echo render($content['field_graduate']); ?>
 
     <?php echo render($content['field_graduate_gif']); ?>
 
