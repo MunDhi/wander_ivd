@@ -10,6 +10,7 @@ hide($content['links']);
 
 ?>
 
+<a href="/graduates" style="margin: 50px 0 0;">&larr; Graduates</a>
 
 <div class="graduate">
 
@@ -86,6 +87,5 @@ hide($content['links']);
         <?php echo render($content['field_graduate_project']); ?>
     <?php endif; ?>
 
-    <a href="/graduates" style="margin: 50px 0 0 5%;">&larr; Graduates</a>
 
 </div>
