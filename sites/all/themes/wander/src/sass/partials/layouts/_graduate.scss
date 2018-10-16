@@ -20,10 +20,9 @@
     margin-bottom: 100px;
   }
 
-  .graduate-portrait {
-    margin: 0 auto;
-    max-width: 600px;
-    width: 100%;
+  .back-to-grad {
+    margin: 50px auto 0;
+    width: 90%;
   }
 
   .graduate-portrait:hover {
@@ -31,8 +30,8 @@
   }
 
   .graduate-portrait-gif {
-    //margin: 0 auto;
-    max-width: 600px;
+    margin: 50px auto 0;
+    max-width: 480px;
     width: 100%;
     z-index: -1;
   }
@@ -164,6 +163,10 @@
       width: 35%;
     }
 
+    .back-to-grad {
+      width: 100%;
+    }
+
     .graduate {
       position: relative;
       margin: 50px 0 150px;
@@ -173,6 +176,7 @@
       flex-wrap: wrap;
 
       .graduate-portrait-gif {
+        margin: 0;
         width: 30%;
       }
 
