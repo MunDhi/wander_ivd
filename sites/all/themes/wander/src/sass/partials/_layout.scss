@@ -33,7 +33,7 @@ html {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 100px auto 150px;
   max-width: 940px;
   overflow: hidden;
 }
@@ -54,7 +54,6 @@ img {
 .content {
   margin: 0 auto;
   max-width: 900px;
-  padding: 2% 5% 2% 5%;
 }
 
 .not-front {
@@ -66,10 +65,6 @@ img {
     color: #E1AC50;
     z-index: -1;
   }
-}
-
-section {
-  padding: 5% 20% 5% 20%
 }
 
 #top-section {
@@ -120,7 +115,6 @@ footer {
 
 @include media('<small') {
   .content {
-    padding: 5% 5% 5% 5%;
     p {
       text-align: center;
     }
@@ -142,7 +136,6 @@ footer {
   }
 
   .content {
-    padding: 5% 0% 5% 0%;
     p {
       text-align: left;
     }

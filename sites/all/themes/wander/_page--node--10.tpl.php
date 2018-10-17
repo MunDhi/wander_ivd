@@ -55,19 +55,16 @@
                 </div>
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="about.php" class="menu__link" id="link-about">ABOUT</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="team.php" class="menu__link"  id="link-team">TEAM</a>
+                        <a href="/team" class="menu__link"  id="link-team">TEAM</a>
                     </li>
                     <li class="menu__item">
                         <a href="/graduates" class="menu__link" id="link-graduates">GRADUATES</a>
                     </li>
                     <li class="menu__item">
-                        <a href="projects.php" class="menu__link" id="link-projects">PROJECTS</a>
+                        <a href="/projects" class="menu__link" id="link-projects">PROJECTS</a>
                     </li>
                     <li class="menu__item">
-                        <a href="sponsors.php" class="menu__link" id="link-sponsors">SPONSORS</a>
+                        <a href="/sponsors" class="menu__link" id="link-sponsors">SPONSORS</a>
                     </li>
                     <li class="menu__item">
                         <a href="/contact" class="menu__link" id="link-contact">CONTACT</a>
@@ -127,6 +124,7 @@
 
     </div><!-- /container-->
 
+    <?php print render($page['carousel']); ?>
 
 
 

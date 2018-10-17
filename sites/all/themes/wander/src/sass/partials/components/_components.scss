@@ -69,32 +69,32 @@
   padding-top: 5%;
 }
 
-.node-webform {
-
-  input[type="text"] {
-    border-bottom: solid 3px $mustard;
-  }
-
-    textarea {
-      padding: 5%;
-      height: 70vh;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 1em;
-      border: none;
-      border-bottom: solid 3px $mustard;
-      color: $wanderBlack;
-    }
-}
-
-
-@include media('>medium') {
-  .node-webform {
-    textarea {
-      padding: 2%;
-      height: 30vh;
-    }
-  }
-}
+//.node-webform {
+//
+//  input[type="text"] {
+//    border-bottom: solid 3px $mustard;
+//  }
+//
+//    textarea {
+//      padding: 5%;
+//      height: 70vh;
+//      font-family: "Josefin Sans", sans-serif;
+//      font-size: 1em;
+//      border: none;
+//      border-bottom: solid 3px $mustard;
+//      color: $wanderBlack;
+//    }
+//}
+//
+//
+//@include media('>medium') {
+//  .node-webform {
+//    textarea {
+//      padding: 2%;
+//      height: 30vh;
+//    }
+//  }
+//}
 
 /*------------------------------------**
   $BREADCRUMB
@@ -136,6 +136,10 @@
   &:hover {
     text-decoration: none;
     background-color: $mustard;
+  }
+
+  &:focus {
+    outline: 0;
   }
 }
 

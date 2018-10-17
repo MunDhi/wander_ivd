@@ -55,9 +55,6 @@
                 </div>
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="/about" class="menu__link" id="link-about">ABOUT</a>
-                    </li>
-                    <li class="menu__item">
                         <a href="/team" class="menu__link"  id="link-team">TEAM</a>
                     </li>
                     <li class="menu__item">
@@ -161,15 +158,6 @@
         <div id='features'><div class='limiter clearfix'>
                 <div class="container">
                 <?php print render($page['features']); ?>
-                </div>
-            </div>
-        </div>
-    <?php endif; ?>
-
-    <?php if ($page['carousel']): ?>
-        <div id='carousel'><div class='limiter clearfix'>
-                <div class="container">
-                    <?php print render($page['carousel']); ?>
                 </div>
             </div>
         </div>
