@@ -12,7 +12,7 @@
 
     a {
       .title {
-        font-size: 0.45em;
+        font-size: 32px;
         color: $wanderBlack;
         text-align: center;
         background: $wanderWhite;
@@ -27,5 +27,14 @@
   .project-grid {
     position: relative;
     width: 30%;
+
+    .project-teaser {
+
+      a {
+        .title {
+          font-size: 28px;
+        }
+      }
+    }
   }
 }

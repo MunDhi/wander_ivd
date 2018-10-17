@@ -1,9 +1,15 @@
 .team-grid {
 
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 100%;
+
   .views-field-field-graduate-name {
     .field-content {
+      margin-top: 5%;
       color: $wanderBlack;
       font-size: 32px;
+      font-weight: bold;
       text-transform: uppercase;
       text-align: center;
     }
@@ -15,6 +21,19 @@
       text-align: center;
     }
   }
+}
 
+@include media('>medium') {
 
+  .team-grid {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    .views-field-field-graduate-name {
+      .field-content {
+        font-size: 28px;
+      }
+    }
+  }
 }
