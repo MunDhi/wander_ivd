@@ -42,7 +42,8 @@ stylesheets[all][] = dist/css/style.min.css
 ;stylesheets[all][] = donteverloadmeagain.css
 
 ;-------------- JS -------------
-scripts[] = js/script.js
+;scripts[] = js/script.js
+
 
 ;-------------- Default Mothership Settings  -------------
 settings[mothership_rebuild_registry] = 0

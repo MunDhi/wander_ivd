@@ -167,9 +167,6 @@
 
 </div><!-- /page-->
 
-
-<?php include "php_includes/scripts.php"?>
-
 <footer role="contentinfo">
   <?php print render($page['footer']); ?>
 </footer>

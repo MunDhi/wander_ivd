@@ -1,13 +1,5 @@
-<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
-<script src="https://prinzhorn.github.io/skrollr/dist/skrollr.min.js"></script>
-
-<script src="dist/js/vendor/float-labels.min.js"></script>
-<script src="dist/js/script.js"></script>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
-
+<!--<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>-->
+<!--<script src="https://prinzhorn.github.io/skrollr/dist/skrollr.min.js"></script>-->
 
 <script>
     function myFunction() {
@@ -18,10 +10,6 @@
             x.className = "topnav";
         }
     }
-
-    // AOS Initialise
-    AOS.init();
-
 
     // Menu functions
 
@@ -102,9 +90,8 @@
     });
 </script>
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="src/js/slick.min.js"></script>
 
 <script>
     $('.autoplay').slick({
@@ -117,6 +104,7 @@
     });
 
 </script>
+<script src="dist/js/script.js"></script>
 
 </body>
 </html>
