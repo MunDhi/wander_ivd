@@ -10,7 +10,7 @@ hide($content['links']);
 
 ?>
 
-
+<a href="/graduates" class="back-to-grad">&larr; Graduates</a>
 
 <div class="graduate">
 
@@ -75,6 +75,9 @@ hide($content['links']);
 
         <?php echo render($content['body']); ?>
 
+        <?php if ($content['field_graduate_project']): ?>
+            <?php echo render($content['field_graduate_project']); ?>
+        <?php endif; ?>
 
     </div>
 
@@ -83,9 +86,7 @@ hide($content['links']);
         <?php echo render($content['field_example_works']); ?>
     <?php endif; ?>
 
-    <?php if ($content['field_graduate_project']): ?>
-        <?php echo render($content['field_graduate_project']); ?>
-    <?php endif; ?>
+
 
 
 </div>

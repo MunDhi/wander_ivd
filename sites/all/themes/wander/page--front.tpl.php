@@ -63,8 +63,6 @@
                     <li class="menu__item">
                         <a href="/projects" class="menu__link" id="link-projects">PROJECTS</a>
                     </li>
-                    <li class="menu__item">
-                        <a href="/sponsors" class="menu__link" id="link-sponsors">SPONSORS</a>
                     </li>
                     <li class="menu__item">
                         <a href="/contact" class="menu__link" id="link-contact">CONTACT</a>

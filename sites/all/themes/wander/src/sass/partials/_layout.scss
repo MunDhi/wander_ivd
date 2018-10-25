@@ -33,7 +33,7 @@ html {
 }
 
 .container {
-  margin: 100px auto 50px;
+  margin: 100px auto 150px;
   max-width: 940px;
   overflow: hidden;
 }
@@ -105,10 +105,13 @@ img {
   margin: 0;
 }
 
+.carousel {
+  margin-bottom: 50px;
+}
+
 footer {
   position: absolute;
   width: 100%;
-  height: 260px;
   color: $wanderBlack;
   text-align: center;
 }
