@@ -1,11 +1,19 @@
 
 .view-filters {
+  width: 90%;
+  margin: 0 auto 50px;
+
+  .views-exposed-form .views-exposed-widget {
+    padding: 0;
+  }
 
   .views-widget {
     width: 100%;
-    padding-left: 33%;
-    padding-right: 30%;
 
+    .form-radios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
 
       div input[type="radio"],
       label:before {
@@ -24,17 +32,95 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         font-size: 14px;
-        width: 180px;
+        width: 170px;
+        //width: 180px;
         display: flex;
         justify-content: center;
         transition: all 0.3s ease;
 
         &:hover {
           text-decoration: none;
-          background-color: $orange;
+          background-color: $mustard;
         }
       }
+
+      div:first-child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        label {
+          border: solid 3px #AA6155;
+          &:hover {
+            background-color: #AA6155;
+          }
+        }
+
+        input[type=radio]:checked + label {
+          color: #FEFCFB;
+          background-color: #AA6155;
+        }
+      }
+
+      div:nth-child(2) {
+
+        input[type=radio]:checked + label {
+          background-color: #E1AC50;
+        }
+
+      }
+
+      div:nth-child(3) {
+
+        label {
+          border: solid 3px #DD835B;
+          &:hover {
+            background-color: #DD835B;
+          }
+        }
+
+        input[type=radio]:checked + label {
+          color: #FEFCFB;
+          background-color: #DD835B;
+        }
+
+      }
+
+      div:nth-child(4) {
+
+        label {
+          border: solid 3px $blue;
+          &:hover {
+            background-color: $blue;
+          }
+        }
+
+        input[type=radio]:checked + label {
+          color: $wanderBlack;
+          background-color: $blue;
+        }
+
+      }
+
+      div:last-child {
+
+        label {
+          border: solid 3px $pink;
+          &:hover {
+            background-color: $pink;
+          }
+        }
+
+        input[type=radio]:checked + label {
+          color: $wanderBlack;
+          background-color: $pink;
+        }
+
+      }
+
     }
+
+  }
 
 
 }
@@ -53,12 +139,16 @@
           display: flex;
           justify-content: space-between;
 
+          div:first-child {
+            width: auto;
+          }
+
           div input[checked="checked"] > label {
             font-weight: bold;
           }
 
           label {
-            margin-top: 5%;
+            width: 175px;
           }
         }
       }

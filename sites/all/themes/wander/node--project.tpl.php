@@ -10,7 +10,7 @@ hide($content['links']);
 
 ?>
 
-<a href="/projects" class="back-to-proj">&larr; Projects</a>
+<a href="/projects" class="back-to-project">&larr; Projects</a>
 
 <div class="project">
 

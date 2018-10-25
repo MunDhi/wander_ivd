@@ -1,8 +1,17 @@
 .node-type-project {
+  height: auto !important;
+
+  .container {
+    margin: 50px auto 150px;
+  }
 
   .hero, h1 {
     display: none;
   }
+}
+
+.back-to-project {
+  margin-bottom: 50px;
 }
 
 .project-info {
@@ -10,11 +19,16 @@
   .project-details {
 
     h5 {
-      margin-top: 2%;
+      display: flex;
+      margin-top: 20px;
+
+      .field-type-link-field {
+        margin-left: 10px;
+      }
     }
 
     p {
-      margin-top: 2%;
+      margin-top: 20px;
 
     }
   }
