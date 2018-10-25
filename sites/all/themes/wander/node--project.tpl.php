@@ -10,6 +10,8 @@ hide($content['links']);
 
 ?>
 
+<a href="/projects" class="back-to-proj">&larr; Projects</a>
+
 <div class="project">
 
     <div class="project-info">
@@ -20,7 +22,7 @@ hide($content['links']);
 
 
         <?php if ($content['field_project_title']): ?>
-        <h3><?php echo render($content['field_project_title']); ?></h3>
+        <h4><?php echo render($content['field_project_title']); ?></h4>
     <?php endif; ?>
 
     <?php if ($content['field_project_by']): ?>

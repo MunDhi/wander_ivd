@@ -10,7 +10,7 @@ hide($content['links']);
 
 ?>
 
-<a href="/graduates" class="back-to-grad">&larr; Graduates</a>
+
 
 <div class="graduate">
 
