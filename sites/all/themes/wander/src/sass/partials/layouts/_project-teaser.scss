@@ -5,6 +5,7 @@
 }
 
 .project-grid {
+  max-width: 360px;
   width: 90%;
   margin: 0 auto 50px;
 
@@ -24,9 +25,14 @@
   }
 }
 
+@include media('>small') {
+  .project-grid {
+    width: 45%;
+  }
+}
+
 @include media('>medium') {
   .project-grid {
-    position: relative;
     width: 30%;
 
 
