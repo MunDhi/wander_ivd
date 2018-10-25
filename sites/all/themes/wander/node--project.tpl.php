@@ -26,7 +26,7 @@ hide($content['links']);
     <?php endif; ?>
 
     <?php if ($content['field_project_by']): ?>
-        <h5><?php echo render($content['field_project_by']); ?></h5>
+        <h5>By<?php echo render($content['field_project_by']); ?></h5>
     <?php endif; ?>
 
     <?php echo render($content['body']); ?>
