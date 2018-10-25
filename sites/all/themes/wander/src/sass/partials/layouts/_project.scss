@@ -1,9 +1,38 @@
 .node-type-project {
-  
+
   .hero, h1 {
     display: none;
   }
+}
 
+.project-info {
 
+  .project-details {
 
+    h5 {
+      margin-top: 2%;
+    }
+
+    p {
+      margin-top: 2%;
+
+    }
+  }
+
+}
+
+@include media('>medium') {
+  .project-info {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: auto;
+    }
+
+    .project-details {
+      width: 50%;
+      padding: 0% 0% 0% 2%;
+    }
+  }
 }
