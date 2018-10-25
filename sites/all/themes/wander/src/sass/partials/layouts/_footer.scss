@@ -1,3 +1,75 @@
 footer {
-  background-color: $orange;
+  height: auto !important;
+  
+  .showcased-by {
+    margin-bottom: 100px;
+
+    h4 {
+      margin-bottom: 30px;
+    }
+
+    .showcase-logos {
+      display: flex;
+      justify-content: center;
+
+      .design-festival {
+        height: 100px;
+        width: 160px;
+        background-image: url("/sites/default/files/DF_white.png");
+        background-position: 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 50px;
+      }
+
+      .qut-logo {
+        height: 100px;
+        width: 100px;
+        background-image: url('/sites/default/files/qut.png');
+        background-position: 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+    }
+    
+  }
+
+  .footer-content {
+    padding: 30px 0;
+    background-color: #DD835B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .fb img,
+    .insta img{
+      height: 50px;
+      width: 50px;
+    }
+
+    .fb {
+      margin-right: 20px;
+    }
+    
+    p {
+      margin: 20px 0 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+}
+
+@include media('>medium') {
+
+  footer {
+
+    .showcased-by {
+      width: 50%;
+      margin: 0 auto 100px;
+    }
+
+  }
+
 }

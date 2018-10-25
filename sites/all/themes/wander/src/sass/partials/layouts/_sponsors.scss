@@ -1,0 +1,50 @@
+.sponsors {
+  margin-bottom: 100px;
+
+  p {
+    text-align: center;
+    margin: 10px auto 50px;
+    max-width: 700px;
+    width: 90%
+  }
+
+  .sponsors-logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    .breeder-logo {
+      height: 100px;
+      width: 100px;
+      background-image: url("/sites/default/files/breeder.jpg");
+      background-size: contain;
+      margin-right: 50px;
+    }
+
+    .jm-logo {
+      height: 100px;
+      width: 100px;
+      background-image: url("/sites/default/files/jm.jpg");
+      background-size: contain;
+      margin-right: 50px;
+    }
+
+    .romeo-logo {
+      height: 100px;
+      width: 100px;
+      background-image: url("/sites/default/files/romeo.jpg");
+      background-size: contain;
+    }
+
+  }
+
+  .dl-logo {
+    margin: 0 auto;
+    height: 100px;
+    width: 300px;
+    background-image: url("/sites/default/files/dl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+}

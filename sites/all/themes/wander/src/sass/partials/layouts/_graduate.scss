@@ -21,7 +21,7 @@
   }
 
   .graduate {
-    margin-bottom: 100px;
+    //margin-bottom: 100px;
   }
 
   .back-to-grad {
@@ -118,17 +118,13 @@
   }
 
   .graduate-project {
-    position: relative;
-    background-color: $mustard;
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
     height: auto;
-    margin-bottom: 100px;
+    //margin-bottom: 100px;
 
     label {
-      position: absolute;
-      top: 45%;
-      left: 50%;
-      transform: translateX(-50%);
+      margin-bottom: 30px;
       display: block;
       font-weight: bold;
       font-size: 24px;
@@ -137,12 +133,12 @@
 
     a img {
       width: 100%;
-      opacity: 0.40;
+      opacity: 1;
       transition: all 0.3s ease;
       }
 
     a:hover img {
-      opacity: 0.80;
+      opacity: 0.40;
     }
 
     a:hover label {
@@ -173,7 +169,7 @@
 
     .graduate {
       position: relative;
-      margin: 50px 0 150px;
+      margin: 50px 0 0;
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -202,9 +198,10 @@
     }
 
     .graduate-project {
-      margin: 100px 0 0;
+      width: 100%;
+      margin: 0;
       label {
-        font-size: 48px;
+        margin-bottom: 40px;
       }
     }
 
