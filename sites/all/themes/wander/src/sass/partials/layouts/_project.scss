@@ -24,15 +24,14 @@
 @include media('>medium') {
   .project-info {
     display: flex;
+    justify-content: space-between;
     flex-direction: row-reverse;
 
-    img {
-      width: auto;
+    .field-type-image {
+      width: 30%;
     }
-
     .project-details {
-      width: 70%;
-      padding: 0% 2% 0% 0%;
+      width: 64.5%;
     }
   }
 }
