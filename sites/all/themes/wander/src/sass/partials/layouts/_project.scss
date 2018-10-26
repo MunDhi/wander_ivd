@@ -40,17 +40,21 @@
   }
 }
 
-.field-items {
-  display: flex;
-  flex-direction: column;
-}
+.project-process {
 
-.field-item {
-  margin-bottom: 15px;
-
-  img {
-    margin: 0 auto;
+  .field-items {
+    display: flex;
+    flex-direction: column;
   }
+
+  .field-item {
+    margin-bottom: 15px;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+
 }
 
 @include media('>medium') {
