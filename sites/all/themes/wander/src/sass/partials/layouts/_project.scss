@@ -78,8 +78,12 @@
     }
   }
 
+  .project-process {
+
     .field-items {
-      display: flex;
+      flex-dircetion: row;
       justify-content: space-between;
     }
+
+  }
 }
