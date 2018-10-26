@@ -38,20 +38,19 @@
 
     }
   }
+}
 
-  .field-items {
-    display: flex;
-    flex-direction: column;
+.field-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-item {
+  margin-bottom: 15px;
+
+  img {
+    margin: 0 auto;
   }
-
-  .field-item {
-    margin-bottom: 15px;
-
-    img {
-      margin: 0 auto;
-    }
-  }
-
 }
 
 @include media('>medium') {
