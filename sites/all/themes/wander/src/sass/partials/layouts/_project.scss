@@ -11,10 +11,16 @@
 }
 
 .back-to-project {
-  margin-bottom: 50px;
+  margin: 0 0 50px 20px;
 }
 
 .project-info {
+  width: 90%;
+  margin: 0 auto;
+
+  .field-type-image {
+    margin-bottom: 50px;
+  }
 
   .project-details {
 
@@ -36,7 +42,13 @@
 }
 
 @include media('>medium') {
+
+  .back-to-project {
+    margin: 0 0 50px 0;
+  }
+
   .project-info {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;

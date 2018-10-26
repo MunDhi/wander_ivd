@@ -82,7 +82,7 @@
 
 
 
-<div class="page">
+<div class="page confirmation">
 
     <div class="container">
 
@@ -93,13 +93,6 @@
       <nav class="tabs"><?php print render($tabs); ?></nav>
     <?php endif; ?>
 
-<!--    --><?php //if($page['highlighted'] OR $messages){ ?>
-<!--      <div class="drupal-messages">-->
-<!--      --><?php //print render($page['highlighted']); ?>
-<!--      --><?php //print $messages; ?>
-<!--      </div>-->
-<!--    --><?php //} ?>
-
 
     <?php print render($page['content_pre']); ?>
 
@@ -109,29 +102,9 @@
 
   </div><!-- /main-->
 
-  <?php if ($page['sidebar_first']): ?>
-    <div class="sidebar-first">
-    <?php print render($page['sidebar_first']); ?>
-    </div>
-  <?php endif; ?>
-
-  <?php if ($page['sidebar_second']): ?>
-    <div class="sidebar-second">
-      <?php print render($page['sidebar_second']); ?>
-    </div>
-  <?php endif; ?>
-
-
-    </div><!-- /container-->
-
-    <?php print render($page['carousel']); ?>
-
 
 
 </div><!-- /page-->
-
-
-<?php include "php_includes/scripts.php"?>
 
 
 <footer role="contentinfo">
