@@ -11,6 +11,10 @@
   $GENERAL
 **------------------------------------*/
 
+body {
+  overflow-y: scroll;
+}
+
 html {
   // REMOVE WHEN WEBSITE IS COMPLETE //
   //margin-top: 50px;
@@ -85,7 +89,16 @@ img {
   overflow: hidden;
   z-index: -100;
 
-  video {                 //HOME PAGE ONLY//
+  .background-hero {
+    height: 100%;
+    width: 100%;
+    background: url('/sites/default/files/logo_flat.png') no-repeat 50% 50%;
+    background-size: 300px 400px;
+    display: block;
+  }
+
+  video {                  //HOME PAGE ONLY//
+    display: none;
     position: relative;
     top: 55%;
     left: 50%;
@@ -133,10 +146,15 @@ footer {
   footer {
     padding-top: 2%;
   }
+  
+  .hero .background-hero {
+    display: none;
+  }
 
   .hero video {
     min-height: 100%;
     max-height: none;
+    display: block;
   }
 
   .content {
