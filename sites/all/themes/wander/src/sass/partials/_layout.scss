@@ -11,9 +11,6 @@
   $GENERAL
 **------------------------------------*/
 
-body {
-  overflow-y: scroll;
-}
 
 html {
   // REMOVE WHEN WEBSITE IS COMPLETE //
@@ -168,4 +165,8 @@ footer {
   }
 }
 
-
+@media screen and (max-width: 480px) {
+  body {
+    overflow-y: scroll;
+  }
+}
