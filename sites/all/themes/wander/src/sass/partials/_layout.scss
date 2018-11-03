@@ -65,6 +65,7 @@ img {
     transform: translateX(-50%);
     color: #E1AC50;
     z-index: -1;
+    font-size: 48px;
   }
 }
 
@@ -140,6 +141,13 @@ footer {
 }
 
 @include media('>medium') {
+
+  .not-front {
+    .container h1 {
+      font-size: 60px;
+    }
+  }
+
   footer {
     padding-top: 2%;
   }
